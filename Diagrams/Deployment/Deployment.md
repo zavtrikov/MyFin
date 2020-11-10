@@ -1,5 +1,5 @@
-###  Диаграмма развёртывания
+###  Диаграмма компонентов и размещения
 
 
-![Диаграмма развёртывания](https://github.com/zavtrikov/MyFin/blob/main/Diagrams/Deployment/DeploymentDiagram.png)
+![Диаграмма компонентов и размещения](https://github.com/zavtrikov/MyFin/blob/main/Diagrams/Deployment/DeploymentDiagram.png)
 

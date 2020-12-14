@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="250dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textview_balance"
+            android:layout_width="411dp"
+            android:layout_height="91dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="Profile Fragment"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button_addbalance"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="422dp"
+            android:layout_height="67dp"
+            android:background="@color/colorPrimaryDark"
+            android:insetLeft="4dp"
+            android:insetTop="6dp"
+            android:insetRight="4dp"
+            android:insetBottom="6dp"
+            android:text="Добавить баланс"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_addpayment"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="550dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Добавить покупку"
+        android:textColor="#F2613D">
+
+
+    </Button>
+
+</RelativeLayout>

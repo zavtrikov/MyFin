@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/nav_header">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/ic_money_history"
+            android:title="Текущий баланс" />
+        <item
+            android:id="@+id/nav_money_history"
+            android:icon="@drawable/ic_money_history"
+            android:title="История баланса" />
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@drawable/ic_payment_history"
+            android:title="История покупок" />
+        <item
+            android:id="@+id/nav_statistics_history"
+            android:icon="@drawable/ic_statistics"
+            android:title="Статистика" />
+    </group>
+    <item android:title="Communicate">\
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+
+        </menu>
+    </item>
+</menu>

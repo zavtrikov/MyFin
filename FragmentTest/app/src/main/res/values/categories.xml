@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string-array name="categories">
+    <item>Заработная плата</item>
+    <item>Премия</item>
+    <item>Степендия</item>
+    <item>Долг</item>
+    <item>Найденные деньги</item>
+</string-array>
+</resources>

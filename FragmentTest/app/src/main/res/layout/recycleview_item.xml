@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:paddingRight="10dp"
+    android:background="@color/color2"
+    android:paddingBottom="4dp"
+    android:radius="72dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_gravity="top">
+        <TextView
+            android:id="@+id/textview_pokupka"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Покупка  :"
+            android:textSize="34dp"
+            android:gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_date"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:maxLines="1"
+            android:minLines="1"
+            android:gravity="center"
+            android:textColor="#F2613D"
+            android:textSize="22dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:text="Сумма :"
+            android:gravity="center"
+            android:textSize="23dp">>
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/text_view_balance_comment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minLines="1"
+            android:textSize="21dp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view_com"
+            android:layout_width="81dp"
+            android:layout_height="51dp"
+            android:layout_gravity="bottom"
+            android:text="Катеория"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#F2613D"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_view_balance_pm"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minLines="1"
+            android:textColor="#F2613D"
+            android:textSize="23dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
